@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\nilton\\Test\\src\\RegisterUser.Data\\Data.csproj": {}
+  },
+  "projects": {
+    "E:\\nilton\\Test\\src\\RegisterUser.Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\nilton\\Test\\src\\RegisterUser.Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "E:\\nilton\\Test\\src\\RegisterUser.Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\nilton.rodrigues\\.nuget\\packages\\",
+        "outputPath": "E:\\nilton\\Test\\src\\RegisterUser.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nilton.rodrigues\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "(, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
